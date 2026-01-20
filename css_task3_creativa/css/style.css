@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* start navbar home section */
+.nav-home {
+    background-color: #212121;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-home a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: monospace;
+    margin-left: 22px;
+    letter-spacing: 1px;
+}
+
+/* end navbar home section */
+
+/* start header home section */
+.header-home {
+    height: 580px;
+    background-image: url(img/back.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-home h2 {
+    color: #fff;
+    font-size: 33px;
+    font-family: monospace;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.header-home p {
+    color: #fff;
+    font-size: 20px;
+    font-family: monospace;
+    margin-bottom: 30px;
+    word-spacing: 1px;
+}
+
+.header-home a {
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 18px;
+    font-size: 18px;
+    font-family: monospace;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.header-home a:nth-of-type(1) {
+    background-color: #6f0f41;
+}
+
+.header-home a:nth-of-type(2) {
+    background-color: #2c9279;
+}
+
+/* end header home section */
+
+/* start childred section */
+.children-home {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.children-home h3 {
+    text-align: center;
+    font-family: monospace;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.children-home hr {
+    width: 252px;
+    margin: auto;
+    height: 4px;
+    background: #cf6666;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.children-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.children-content img {
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.children-content p {
+    width: 40%;
+    text-align: center;
+    font-family: monospace;
+    line-height: 1.8;
+    font-size: 23;
+}
+
+.children-content p::first-letter {
+    color: #ff0101;
+    font-size: 40px;
+}
+
+/* end childred section */
+
+/* start about section  */
+.about-home {
+    background-color: #f9f9f9;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-content {
+    width: 37%;
+    background-color: #fff;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 2px solid #0000002b;
+}
+
+.about-content img {
+    width: 91%;
+    margin: auto;
+    display: block;
+    height: 350px;
+}
+
+.about-content h4 {
+    text-align: center;
+    font-family: monospace;
+    margin-top: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+/* end about section  */
+
+/* start contact and footer section */
+.contact-home,
+.footer-home {
+    background-image: url(img/contact\ us.gif);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-home h3,
+.footer-home h3 {
+    color: #fff;
+    font-size: 30px;
+    font-family: monospace;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.contact-home form,
+.footer-home form {
+    width: 80%;
+}
+
+.contact-home form input,
+.contact-home form textarea,
+.footer-home form input {
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 26px;
+    font-size: 19px;
+    border-radius: 2px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.contact-home form button ,.footer-home form button{
+    display: block;
+    margin: auto;
+    padding: 10px 31px;
+    border: none;
+    font-size: 21px;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: #212121;
+    border-radius: 3px;
+}
+
+/* end contact and footer section */
+
+/* start footer section (special) */
+.footer-home{
+    background-image: url(img/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
+    height: 300px;
+    background-size: cover;
+}
+/* end footer section (special) */

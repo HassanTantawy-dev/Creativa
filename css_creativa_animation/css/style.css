@@ -1,0 +1,60 @@
+/* body{
+    perspective: 600px;
+} */
+img{
+    width: 300px;
+    height: 350px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: sayed 4s linear 3 ;
+    /* transition: name duration time-function delay; */
+    /* transition:all 2s linear, border-radius 3s ease-out 2s; */
+    /* display: block;
+    margin: auto; */
+}
+
+@keyframes sayed{
+    
+    0%{
+        transform: translate(0px, 0px);
+    }
+    25%{
+        transform: translate(200px, 0px);
+    }
+    50%{
+        transform: translate(200px, 200px);
+    }
+    75%{
+        transform: translate(0px,200px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+    /* from{
+        transform: translate(0px,0px);
+    }
+    to{
+        transform: translate(200px);
+    } */
+}
+/* img:hover{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%; */
+    /* transform: translatez(100px); */
+    /* transform: translatex(200px); */
+    /* transform: translatex(200px) translateY(100px); */
+    /* transform: translate(200px,100px); */
+
+    /* transform: scalex(2);  */
+    /* transform: scale(1.5); */
+    /* transform: scalez(4) rotatey(50deg); */
+
+    /* transform: rotateX(90deg); */
+    /* transform: rotateY(180deg); */
+    /* transform: rotate(50deg); */
+    /* transform: rotatez(50deg); */
+
+    /* transform: skew(90deg); */
+    /* transform: skewX(-70deg); */
+    /* transform: skewy(90deg); */
+/* } */

@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* start navbar home section */
+.nav-home a {
+    color: black;
+    text-decoration: none;
+    margin-left: 45px;
+    font-size: 22px;
+    font-family: cursive;
+    letter-spacing: 1px;
+    margin-top: 35px;
+    display: inline-block;
+}
+
+/* end navbar home section */
+
+/* start header home section */
+
+.header-home {
+    height: 550px;
+    background-image: url(img/WhatsApp\ Image\ 2025-12-02\ at\ 11.35.10_b8a886c7.jpg);
+    background-size: cover;
+}
+
+.header-content {
+    text-align: center;
+    margin-top: 140px;
+}
+
+.header-content h2 {
+    font-size: 31px;
+    font-family: cursive;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+}
+
+.header-content a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: #5b5aad;
+    border-radius: 30px;
+    margin-right: 22px;
+
+}
+
+/* end header home section */
+
+/* start enjoy home section  */
+
+.enjoy-home {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.enjoy-home h2 {
+    font-size: 28px;
+    font-family: cursive;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.enjoy-home p {
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 25px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+.enjoy-home img {
+    width: 300px;
+}
+
+/* end enjoy home section  */

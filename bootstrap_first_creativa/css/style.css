@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* start header home section */
+.header-home {
+    height: 580px;
+    background-image: url(../img/download.jpg);
+    background-size: cover;
+}
+
+.header-home h3 {
+    background-color: #6eab94;
+    color: #fff;
+    padding: 20px;
+    margin-top: 100px;
+    font-size: 40px;
+    line-height: 1.7;
+    border-radius: 19px;
+    padding-left: 50px;
+    width: 85%;
+    transition: all 0.5s linear;
+}
+
+.header-home h3:hover {
+    background-color: #397662;
+}
+
+@media(max-width:767px) {
+    .header-home h3 {
+        font-size: 30px;
+    }
+    .header-home{
+        background-position: center right;
+    }
+}
+
+/* end header home section */
+
+/* start school home section */
+.school-home h3{
+    color: #439da6;
+}
+.school-home hr {
+    width: 200px;
+    border: 4px solid #e98317;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .school-home img {
+        width: 90% !important;
+    }
+}
+
+/* end school home section */
+
+/* start touch home section */
+
+.touch-home {
+    height: 750px;
+    background: url(../img/Path\ 62.png), url(../img/i-love-my-job-so-much_329181-2178.png);
+    background-size: cover;
+    padding-top: 70px;
+}
+
+@media(max-width:991px) {
+    .touch-home {
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+}
+
+.touch-home h5 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.touch-home p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* end touch home section */
+
+/* start about home section */
+
+@media (max-width:768px) {
+    .about-home img {
+        width: 55% !important;
+        display: block;
+        margin: auto;
+    }
+}
+
+/* end about home section */
+
+/* start footer home section */
+
+.footer-home{
+    background-color: #0f7b65;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 170px 170px 0 0;
+    color: #fff;
+}
+.footer-home a{
+    display: block;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-home h5{
+    color: #e58d7f;
+}
+
+/* end footer home section */
