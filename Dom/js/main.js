@@ -12,8 +12,8 @@
 // }
 
 document.querySelectorAll('.pen').forEach(function(item) {
-    item.onclick=function() {
+    item.addEventListener('click', function() {
         document.querySelector('#demo').style.color=item.dataset.color; 
         document.querySelector('#demo').style.textAlign=item.dataset.align;
-    }
+    });
 });
