@@ -19,7 +19,7 @@ document.addEventListener("scroll", function () {
     var navbar = document.querySelector(".navbar");
     var scrollValue = window.scrollY;
     if (scrollValue > 350) {
-        navbar.setAttribute("class", "navbar navbar-expand-lg navbar-light bg-dark");
+        navbar.setAttribute("class", "navbar navbar-expand-lg navbar-dark bg-dark");
     } else {
         navbar.setAttribute("class", "navbar navbar-expand-lg navbar-light bg-light");
     }
