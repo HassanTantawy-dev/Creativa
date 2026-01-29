@@ -45,7 +45,7 @@
 
 // ============================== Using Async Await =============================
 
-async function getApi() {
+(async function getApi() {
     var result = await fetch("https://dummyjson.com/products");
     var ali = await result.json();
     var Mohamed = ali.products;
@@ -64,5 +64,4 @@ async function getApi() {
         myText = myText + cartoona;
     }
     document.querySelector(".text").innerHTML = myText;
-}
-getApi();
+})();
